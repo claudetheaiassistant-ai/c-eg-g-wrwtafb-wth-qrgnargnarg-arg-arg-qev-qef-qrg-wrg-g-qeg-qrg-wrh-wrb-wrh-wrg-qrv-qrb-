@@ -1,0 +1,19 @@
+JARVIS PHONE — UPDATE AND VOICE
+
+You already have a Jarvis Phone website. This update replaces the files on that SAME website; you do not need to create a second repository.
+
+1. On your iPhone in Files, tap Jarvis phone voice.zip to extract it. Open the resulting Jarvis phone voice folder.
+2. In Safari open your EXISTING jarvis-phone GitHub repository, then choose Code > Add file > Upload files. Select the updated files INSIDE the extracted folder: index.html, app.js, style.css, manifest.webmanifest and icon.png. Upload them to the root, in the same place as your existing files. GitHub should show them as changes to existing files; commit changes to the main branch. Do not upload an extra containing folder or ZIP. NEVER upload your API key or notes.
+3. Wait a few minutes for GitHub Pages to deploy. Open your existing Jarvis Phone web address and refresh. If you installed it on the Home Screen, close it from the app switcher and reopen it; the address has not changed. You can also add it to the Home Screen again from Safari if necessary.
+4. Your locally stored notes and key should remain when updating the same website and same Home Screen app, but browser storage is not guaranteed. In the old app, go to Settings > Export backup BEFORE updating. Save it to Files. Restore via Import backup if needed. Backups do not contain your API key.
+
+FIX THE 404 / CHOOSE A MODEL
+1. Open Jarvis Phone > Settings. Make sure your Gemini key is entered and tap Save key. Do not send it to anyone.
+2. Tap Find available models. Choose an item in the Available models list; the choice saves automatically. Tap Test connection. If a listed model still returns 404 or 429, try another listed model that your Google project can use. Being listed does not guarantee access, free-tier availability, or quota.
+3. Check Google AI Studio for your project's model eligibility and free-tier pricing. Do not turn on billing if you do not want to risk charges. If listing fails, report the error text or HTTP status, never the key. Live API tests require your own key; they were not verified by the developer.
+
+VOICE
+Tap Chat > Start voice conversation, and allow microphone access if asked. Speak a question. Jarvis attempts to transcribe it, sends it to Gemini if a key is saved, and reads the response aloud; it then listens for the next turn. Tap Stop voice to stop listening and speaking. Voice also stops when you leave the app. Audio recognition may use an Apple/browser speech service; check your device settings and do not use it for sensitive speech if that is a concern. Speech recognition and spoken voice support vary between iOS versions, browsers and network conditions. If recognition is unsupported, denied or unreliable, type instead. Gemini needs internet and its quotas still apply. Speech can be cut short if your phone is muted, volume is low, or your device interrupts audio.
+
+NOTES
+The notes screen now has a galaxy-inspired visual and smoother motion. It is not the desktop OG interactive 3D graph and does not sync automatically with it. Notes stay in the browser on this device. Add them under My notes and export backups regularly. Disabling motion in iOS accessibility settings reduces animation.

@@ -1,0 +1,29 @@
+JARVIS PHONE — IPHONE, NO PC REQUIRED
+
+This is a separate edition. Your original Jarvis OG is unchanged.
+
+FIRST: PUT THE APP ONLINE (free static hosting)
+Jarvis Phone is a web app, so you need an HTTPS web address for it. GitHub Pages offers free hosting for public repositories. You can do setup on your iPhone, though GitHub's mobile website may be easier using Safari's Request Desktop Website option. You need a free GitHub account.
+
+1. In iPhone Files, tap Jarvis phone.zip to unzip it. Open the resulting Jarvis phone folder. Keep this guide open.
+2. In Safari, sign in or create an account at https://github.com/ . Create a new PUBLIC repository named jarvis-phone. Do NOT put any API keys or personal notes in that repository.
+3. In the repository, choose Add file > Upload files. Upload the files INSIDE the Jarvis phone folder to the root of the repository: index.html, app.js, style.css, manifest.webmanifest and icon.png. You can also upload this guide, but you don't need to. Commit the changes. The files must not be inside another folder in the repository.
+4. Open the repository's Settings > Pages. Under Build and deployment, choose Deploy from a branch, select the main branch and / (root), and save. Wait a few minutes. Pages will show your website address, usually https://YOUR-USERNAME.github.io/jarvis-phone/ . Open that URL in Safari. If it says 404, wait and check the deployment status in Settings > Pages.
+5. In Safari, tap Share (the square with an arrow) > Add to Home Screen > Add. If Add to Home Screen isn't visible, scroll down the share sheet; menu names may vary by iOS version. Launch Jarvis Phone from your Home Screen.
+
+IMPORTANT: The Home Screen app may have separate browser storage from Safari. Add your notes and Gemini key AFTER opening the Home Screen icon, and use that same icon thereafter. It is not an App Store installation. It needs internet to load the website and to use Gemini. If the hosting website is unavailable, the app may not open.
+
+USE FOR FREE
+- You can add and search notes in demo mode without a Gemini account. Once the page is open, local note search does not send your notes anywhere. The site itself still requires internet to load.
+- For AI replies, obtain a Gemini API key from https://aistudio.google.com/ . In Jarvis Phone, open Settings, paste the key, Save key and Test connection. Never put the key in GitHub or this app's files.
+- Google may offer a free tier, but limits and eligibility depend on your account, model, region and current pricing. Free usage is NOT guaranteed. To avoid unexpected charges, check Google AI Studio's current pricing and quotas, and do not enable billing unless you understand the costs. If quota is exhausted, local notes remain available.
+
+PRIVACY / BACKUP
+- Your notes and saved API key are stored in this app's browser storage on your iPhone. Anyone with access to that storage or your unlocked device may be able to read the key. The key is sent directly to Google when you ask an AI question. Selected matching notes and recent chat messages are also sent to Google; do not submit sensitive data unless you accept Google's terms. The public GitHub repository contains only app code, not your notes or key.
+- In Settings use Export backup to save your notes as a JSON file in Files. Backups contain notes, not your key. Clearing browser/site data, removing the Home Screen app, changing devices or storage restrictions can erase local notes. Restore using Import backup; it replaces notes on that device.
+- This edition does not automatically sync notes or conversations with Jarvis OG, or between phones and PCs. It has basic chat and notes, not the OG desktop's galaxy, screen monitoring, or focus tracking. Some browser features vary by device.
+
+TROUBLESHOOTING
+- Blank page or 404: check the five files are at the repository root, Pages is enabled, and you opened the HTTPS Pages URL rather than a GitHub file view.
+- Connection test fails: confirm key, model access, internet, Google AI Studio region and quota. The app makes requests from your browser directly to Google's API; a restrictive network may block them. Demo mode remains usable if you remove the key.
+- Want a PC browser too? Open the same URL there, but its notes and key are separate. Export and import your notes to move a copy.
